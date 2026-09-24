@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
   return (
     <footer className="bg-[#17251F] text-[#F6F8F7] pt-16 pb-12 border-t border-[#176B52]/20">
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8 pb-14 border-b border-white/10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10 lg:gap-8 pb-14 border-b border-white/10">
           {/* Col 1: Identity & Mission */}
           <div className="lg:col-span-2 space-y-4">
             <Logo variant="horizontal" inverted={true} />
@@ -137,7 +137,7 @@ export const Footer: React.FC = () => {
           </div>
 
           {/* Col 4: Contact & Office */}
-          <div className="space-y-3">
+          <div className="space-y-3 lg:col-span-2">
             <h4 className="text-xs font-semibold uppercase tracking-wider text-[#A2B8AF]">
               Head Office
             </h4>
@@ -167,6 +167,10 @@ export const Footer: React.FC = () => {
                 <a href="mailto:uzhoculturalsociety@gmail.com" className="hover:text-[#A2B8AF]">
                   uzhoculturalsociety@gmail.com
                 </a>
+              </div>
+
+              <div className="flex items-start gap-2 pt-1 text-[11px] text-white/60">
+                <Clock className="w-3 h-3 text-[#176B52] shrink-0 mt-0.5" />
                 <span>Mon – Fri: 9:30 AM – 4:30 PM</span>
               </div>
 
