@@ -1,5 +1,6 @@
 import React from 'react';
 import { Hero } from '../components/home/Hero';
+import { PresidentSection } from '../components/home/PresidentSection';
 import { AboutPreview } from '../components/home/AboutPreview';
 import { OurWorkSection } from '../components/home/OurWorkSection';
 import { FeaturedActivitiesSection } from '../components/home/FeaturedActivitiesSection';
@@ -14,6 +15,7 @@ export const HomePage: React.FC = () => {
     <main>
       {/* 1. Hero Section */}
       <Hero />
+      <PresidentSection />
 
       {/* 2. About Preview */}
       <AboutPreview />
