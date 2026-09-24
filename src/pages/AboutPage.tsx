@@ -184,12 +184,17 @@ export const AboutPage: React.FC = () => {
               <div className="space-y-8 max-w-2xl">
                 <div>
                   <h3 className="text-xl font-bold text-[#17251F]">About the President</h3>
-                  <p className="mt-3 text-base leading-relaxed text-[#57655E]">Vezokho Chotso is the President of Uzho Cultural Society.</p>
-                  <p className="mt-2 text-base leading-relaxed text-[#57655E]">His biography will be shared here once confirmed.</p>
+                  <p className="mt-3 text-base leading-relaxed text-[#57655E]">Vezokho Chotso is a prominent political figure, social worker, and sports administrator from Nagaland, India. He belongs to the Chakhesang Naga community and has been actively involved in community welfare and leadership roles across multiple sectors.</p>
+                  <h4 className="mt-5 text-sm font-bold uppercase tracking-wider text-[#176B52]">Political career</h4>
+                  <p className="mt-2 text-base leading-relaxed text-[#57655E]">He contested the 2013 Nagaland Legislative Assembly Election from the 18-Chazouba Assembly Constituency in Phek district as an Independent candidate. He later associated with the Bharatiya Janata Party, serving as Convener of the North East ST Morcha and strengthening grassroots community outreach in the Chozuba region.</p>
+                  <h4 className="mt-5 text-sm font-bold uppercase tracking-wider text-[#176B52]">Sports administration</h4>
+                  <p className="mt-2 text-base leading-relaxed text-[#57655E]">He serves as an Apex Council Member of the Nagaland Cricket Association for the 2026–2029 tenure and has previously served as President of the Phek District Cricket Association.</p>
+                  <h4 className="mt-5 text-sm font-bold uppercase tracking-wider text-[#176B52]">Public service and recognition</h4>
+                  <p className="mt-2 text-base leading-relaxed text-[#57655E]">He was appointed to the Nagaland Khadi &amp; Village Industries Board, supporting rural economies and skilled artisans. In 2013, he received the “Best Citizen of India Award” for three decades of voluntary service as an Honorary Animal Welfare Officer and his wider community contributions.</p>
                 </div>
                 <div className="border-t border-[#E2E8E5] pt-6">
                   <h3 className="text-xl font-bold text-[#17251F]">Message from the President</h3>
-                  <p className="mt-3 text-base leading-relaxed text-[#57655E]">A personal message from Vezokho Chotso will be published here soon.</p>
+                  <p className="mt-3 text-base leading-relaxed text-[#57655E]">Uzho Cultural Society is committed to preserving our cultural heritage while creating practical opportunities for education, creativity, entrepreneurship, and community development.</p>
                 </div>
               </div>
             </div>

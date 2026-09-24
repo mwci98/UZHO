@@ -10,9 +10,18 @@ export const GalleryPage: React.FC = () => {
   const [selectedItem, setSelectedItem] = useState<GalleryItem | null>(null);
   const [loading, setLoading] = useState(true);
 
+  const suppliedGallery: GalleryItem[] = [1, 2, 3, 4, 5].map((n) => ({
+    id: `supplied-${n}`,
+    title: `Community activity ${n}`,
+    caption: 'Uzho Cultural Society community and handloom weaving programme.',
+    image_url: `/assets/gallery/activity-${n}.jpeg`,
+    category: 'Community Activities',
+    date: '2026-09-24',
+  } as GalleryItem));
+
   useEffect(() => {
     getGalleryItems().then((data) => {
-      setItems(data);
+      setItems(data.length ? data : suppliedGallery);
       setLoading(false);
     });
   }, []);
