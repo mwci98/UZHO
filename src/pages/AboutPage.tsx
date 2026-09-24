@@ -2,6 +2,10 @@ import React from 'react';
 import { useNavigation } from '../context/NavigationContext';
 import { Shield, BookOpen, Compass, Award, Heart, ArrowRight, MapPin } from 'lucide-react';
 
+const societyObjectives = [
+  'To regenerate our rich cultural heritage.', 'To promote social and cultural activities.', 'To preserve monuments.', 'To stage indigenous dramas and plays.', 'To modernize folk dances.', 'To promote and preserve folk songs.', 'To establish a mini-museum for preservation of ancient tools and implements.', 'To organize cultural troops.', 'To set up a library for the preservation and promotion of folk tales and stories.', 'To develop and research cultural ornaments and dresses.', 'To establish indigenous craft industries.', 'To establish a weaving unit for enlightening cultural dress and its modernization.', 'To set up a cultural institute.', 'To establish indigenous theatres, recording studio, etc.', 'To sponsor talented youth for cultural studies, including indigenous dramas, plays and social services.', 'To organize seminars and symposiums for socio-cultural upliftment.', 'To give timely training in folk dances and songs.', 'To help women, children and other weaker sections of society.', 'To popularize our rich culture to other parts of the country.', 'To organize cultural shows and drama from time to time.', 'To help rural people in public health and sanitation.', 'To establish marketing facilities.', 'To organize cultural competitions through dramas, dances, plays, song stories, poems, etc.', 'To research and publish folk tales and folklore.', 'To preserve salted water springs.', 'To co-operate with and help the Government in the upliftment of rural activities.', 'To develop self-work culture through mass participation of members.', 'To construct rural public utility roads, link roads, approach roads, footpaths, bridges and culverts for the welfare of village communities.', 'To construct public wells where necessary for villagers.', 'To construct minimum dwelling houses for destitute people in villages.', 'To establish community farms of horticulture, social forestry and tree plantation for the upliftment of the rural poor.', 'To take up land development and reclamation of waste land with special emphasis on ecological improvement.', 'To help villagers by maintaining and constructing water-harvesting ponds and irrigation channels for agriculture.', 'To carry out sanitation programmes and environmental pollution control projects in the locality.', 'To promote games and sports by providing infrastructural facilities to rural youth.', 'To construct stadiums for games as well as athletic events.', 'To help rural schools by maintaining and constructing school buildings, hostel accommodation and playgrounds.'
+];
+
 export const AboutPage: React.FC = () => {
   const { navigate } = useNavigation();
 
@@ -36,6 +40,26 @@ export const AboutPage: React.FC = () => {
               <p className="mt-1 text-sm text-[#57655E]">Download the approved member list supplied by Uzho Cultural Society.</p>
             </div>
             <a href="/assets/list-of-members.pdf" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center rounded-xl bg-[#176B52] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#104C3A]">View member list PDF</a>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-[#F6F8F7] border-y border-[#E2E8E5]">
+        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl">
+            <p className="text-xs font-semibold uppercase tracking-wider text-[#176B52]">Governing document</p>
+            <h2 className="mt-2 text-2xl sm:text-3xl font-bold text-[#17251F] font-['DM_Sans',sans-serif]">Preamble</h2>
+            <div className="mt-5 space-y-4 text-base leading-relaxed text-[#57655E]">
+              <p>We, the members of UZHO Cultural Society, having solemnly resolved to constitute ourselves into a society, do hereby declare that we shall preserve, cultivate and promote our culture, customs and traditions, maintain a healthy welfare community, and abide by this constitution.</p>
+              <p>On this day of the 5th January 2001 A.D., we do hereby adopt, enact and give to ourselves this constitution.</p>
+            </div>
+            <div className="mt-6 rounded-xl border-l-4 border-[#176B52] bg-white px-5 py-4 text-[#17251F]"><span className="font-semibold">Motto:</span> <em>“Preserve, and promote”</em></div>
+          </div>
+          <div className="mt-12">
+            <h2 className="text-2xl sm:text-3xl font-bold text-[#17251F] font-['DM_Sans',sans-serif]">Aims and objectives</h2>
+            <ol className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-2 list-decimal list-inside text-sm leading-relaxed text-[#57655E]">
+              {societyObjectives.map((objective, index) => <li key={index} className="border-b border-[#E2E8E5] py-2"><span className="ml-1">{objective}</span></li>)}
+            </ol>
           </div>
         </div>
       </section>
