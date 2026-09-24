@@ -13,7 +13,7 @@ export const initialSiteSettings: SiteSettings = {
   country: 'India',
   phone_primary: '+91 94360 77084',
   phone_secondary: '+91 98620 00000',
-  email_primary: 'uzhoculturalsociety@gmail.com',
+  email_primary: 'vezokho@yahoo.com',
   email_official: 'office@uzhocultural.org',
   office_hours: 'Monday – Friday: 9:30 AM – 4:30 PM | Saturday: 10:00 AM – 2:00 PM',
   upi_id: 'uzhocultural@upi',

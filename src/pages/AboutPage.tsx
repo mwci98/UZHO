@@ -19,9 +19,9 @@ export const AboutPage: React.FC = () => {
               About Uzho Cultural Society
             </h1>
             <p className="mt-4 text-base sm:text-lg text-[#57655E] leading-relaxed">
-              Uzho Cultural Society is a non-governmental civic and cultural organization dedicated
-              to the safeguarding of indigenous cultural heritage, community solidarity, and youth
-              empowerment in Pfutsero and surrounding hill regions.
+              Uzho Cultural Society is a non-profit charitable non-governmental organization based in
+              Nagaland, India. Its work connects art, culture, science, technology, and community
+              education with the people of Pfutsero and the wider region.
             </p>
           </div>
         </div>
@@ -58,6 +58,11 @@ export const AboutPage: React.FC = () => {
                 As modern transitions reshape rural communities, Uzho Cultural Society serves as a
                 structured bridge: preserving what is noble and instructive in our ancestral wisdom
                 while actively preparing our youth for contemporary civic and economic leadership.
+              </p>
+              <p>
+                The society’s registered postal address is Post Box No. 727, Kohima Head Post Office,
+                Kohima - 797001, Nagaland, with its community work and local activities rooted in
+                Pfutsero, Phek district.
               </p>
 
               <div className="pt-4 grid grid-cols-1 sm:grid-cols-2 gap-6">

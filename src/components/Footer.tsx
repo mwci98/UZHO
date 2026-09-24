@@ -164,8 +164,8 @@ export const Footer: React.FC = () => {
 
               <div className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 text-[#176B52] shrink-0" />
-                <a href="mailto:uzhoculturalsociety@gmail.com" className="hover:text-[#A2B8AF]">
-                  uzhoculturalsociety@gmail.com
+                <a href="mailto:vezokho@yahoo.com" className="hover:text-[#A2B8AF]">
+                  vezokho@yahoo.com
                 </a>
               </div>
 
