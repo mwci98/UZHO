@@ -9,10 +9,7 @@ export default defineConfig(() => {
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
-<<<<<<< HEAD
         'lucide-react': path.resolve(__dirname, 'node_modules/lucide-react/dist/esm/lucide-react.js'),
-=======
->>>>>>> a2d207fa5434b6149f1cff2969020f0177f6de72
       },
     },
     server: {
