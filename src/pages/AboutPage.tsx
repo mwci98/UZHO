@@ -31,6 +31,7 @@ export const AboutPage: React.FC = () => {
         </div>
       </section>
 
+                                                                                                                                                                                                                                                                  
       <section className="py-8 bg-white">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 rounded-2xl border border-[#E2E8E5] bg-[#F6F8F7] p-5">
@@ -74,4 +75,5 @@ export const AboutPage: React.FC = () => {
     </div>
   );
 };
+
 
