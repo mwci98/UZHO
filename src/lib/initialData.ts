@@ -11,15 +11,9 @@ export const initialSiteSettings: SiteSettings = {
   state: 'Nagaland',
   pin_code: '797107',
   country: 'India',
-<<<<<<< HEAD
   phone_primary: '+91 94360 77084',
   phone_secondary: '+91 98620 00000',
   email_primary: 'uzhoculturalsociety@gmail.com',
-=======
-  phone_primary: '+91 94360 00000',
-  phone_secondary: '+91 98620 00000',
-  email_primary: 'contact@uzhocultural.org',
->>>>>>> a2d207fa5434b6149f1cff2969020f0177f6de72
   email_official: 'office@uzhocultural.org',
   office_hours: 'Monday – Friday: 9:30 AM – 4:30 PM | Saturday: 10:00 AM – 2:00 PM',
   upi_id: 'uzhocultural@upi',

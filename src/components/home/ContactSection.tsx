@@ -87,13 +87,8 @@ export const ContactSection: React.FC = () => {
                   <Phone className="w-4 h-4 text-[#176B52] shrink-0" />
                   <div>
                     <span className="block text-[11px] text-[#57655E]">Official Telephone</span>
-<<<<<<< HEAD
                     <a href="tel:+919436077084" className="font-medium text-[#17251F] hover:text-[#176B52]">
                       +91 94360 77084
-=======
-                    <a href="tel:+919436000000" className="font-medium text-[#17251F] hover:text-[#176B52]">
-                      +91 94360 00000
->>>>>>> a2d207fa5434b6149f1cff2969020f0177f6de72
                     </a>
                   </div>
                 </div>
@@ -102,13 +97,8 @@ export const ContactSection: React.FC = () => {
                   <Mail className="w-4 h-4 text-[#176B52] shrink-0" />
                   <div>
                     <span className="block text-[11px] text-[#57655E]">Electronic Mail</span>
-<<<<<<< HEAD
                     <a href="mailto:uzhoculturalsociety@gmail.com" className="font-medium text-[#17251F] hover:text-[#176B52]">
                       uzhoculturalsociety@gmail.com
-=======
-                    <a href="mailto:contact@uzhocultural.org" className="font-medium text-[#17251F] hover:text-[#176B52]">
-                      contact@uzhocultural.org
->>>>>>> a2d207fa5434b6149f1cff2969020f0177f6de72
                     </a>
                   </div>
                 </div>

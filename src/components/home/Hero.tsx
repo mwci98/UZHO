@@ -64,15 +64,9 @@ export const Hero: React.FC = () => {
           <div className="lg:col-span-6">
             <div className="relative rounded-2xl overflow-hidden shadow-lg border border-[#E2E8E5] bg-white">
               <img
-<<<<<<< HEAD
                 src="/assets/uzho-office.jpg"
                 alt="Uzho Cultural Society members at the head office in Rüziku, Pfutsero"
                 className="w-full h-[360px] sm:h-[440px] lg:h-[480px] object-cover object-right"
-=======
-                src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=1200&q=80"
-                alt="Community assembly and cultural stewards of Uzho Cultural Society in Pfutsero"
-                className="w-full h-[360px] sm:h-[440px] lg:h-[480px] object-cover"
->>>>>>> a2d207fa5434b6149f1cff2969020f0177f6de72
                 loading="eager"
               />
               <div className="p-4 bg-white border-t border-[#E2E8E5] flex items-center justify-between text-xs text-[#57655E]">

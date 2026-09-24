@@ -70,20 +70,12 @@ export const Logo: React.FC<LogoProps> = ({
   );
 
   if (variant === 'mark') {
-<<<<<<< HEAD
     return <div className={`inline-flex items-center ${className}`}><img src="/assets/uzho-logo.jpg" alt="Uzho Cultural Society logo" className="w-12 h-12 object-contain rounded-md" /></div>;
-=======
-    return <div className={`inline-flex items-center ${className}`}>{SealMark}</div>;
->>>>>>> a2d207fa5434b6149f1cff2969020f0177f6de72
   }
 
   return (
     <div className={`inline-flex items-center gap-3 group ${className}`}>
-<<<<<<< HEAD
       <img src="/assets/uzho-logo.jpg" alt="Uzho Cultural Society logo" className="w-14 h-14 object-contain rounded-md bg-white" />
-=======
-      {SealMark}
->>>>>>> a2d207fa5434b6149f1cff2969020f0177f6de72
       <div className="flex flex-col justify-center">
         <span
           className="text-base sm:text-lg font-bold tracking-tight leading-tight uppercase font-['DM_Sans',sans-serif]"
@@ -92,11 +84,7 @@ export const Logo: React.FC<LogoProps> = ({
           Uzho Cultural Society
         </span>
         <span
-<<<<<<< HEAD
           className="text-[10px] sm:text-xs font-medium tracking-wide uppercase font-['Inter',sans-serif]"
-=======
-          className="text-[11px] sm:text-xs font-medium tracking-wide uppercase font-['Inter',sans-serif]"
->>>>>>> a2d207fa5434b6149f1cff2969020f0177f6de72
           style={{ color: subtextColor }}
         >
           Pfutsero · Nagaland

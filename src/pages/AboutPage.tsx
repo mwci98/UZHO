@@ -27,7 +27,6 @@ export const AboutPage: React.FC = () => {
         </div>
       </section>
 
-<<<<<<< HEAD
       <section className="py-8 bg-white">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 rounded-2xl border border-[#E2E8E5] bg-[#F6F8F7] p-5">
@@ -41,8 +40,6 @@ export const AboutPage: React.FC = () => {
         </div>
       </section>
 
-=======
->>>>>>> a2d207fa5434b6149f1cff2969020f0177f6de72
       {/* Main Narrative & Foundation */}
       <section className="py-16 sm:py-20">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
@@ -108,13 +105,8 @@ export const AboutPage: React.FC = () => {
             <div className="lg:col-span-5 space-y-6">
               <div className="rounded-2xl overflow-hidden border border-[#E2E8E5] shadow-sm">
                 <img
-<<<<<<< HEAD
                   src="/assets/uzho-office.jpg"
                   alt="Uzho Cultural Society members at the society office"
-=======
-                  src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=1200&q=80"
-                  alt="Uzho Cultural Society consultation"
->>>>>>> a2d207fa5434b6149f1cff2969020f0177f6de72
                   className="w-full h-[320px] object-cover"
                 />
                 <div className="p-4 bg-[#F6F8F7] text-xs text-[#57655E]">
@@ -135,19 +127,6 @@ export const AboutPage: React.FC = () => {
                 <div className="space-y-3 text-xs">
                   <div className="p-3 bg-white rounded-xl border border-[#E2E8E5] flex justify-between items-center">
                     <div>
-<<<<<<< HEAD
-=======
-                      <span className="font-semibold text-[#17251F] block">President</span>
-                      <span className="text-[#57655E]">[Official Name Placeholder – Secretariat]</span>
-                    </div>
-                    <span className="text-[10px] text-[#176B52] bg-[#EAF4EF] px-2 py-0.5 rounded font-medium">
-                      Elected Tenure
-                    </span>
-                  </div>
-
-                  <div className="p-3 bg-white rounded-xl border border-[#E2E8E5] flex justify-between items-center">
-                    <div>
->>>>>>> a2d207fa5434b6149f1cff2969020f0177f6de72
                       <span className="font-semibold text-[#17251F] block">General Secretary</span>
                       <span className="text-[#57655E]">[Official Name Placeholder – Secretariat]</span>
                     </div>
@@ -186,7 +165,6 @@ export const AboutPage: React.FC = () => {
         </div>
       </section>
 
-<<<<<<< HEAD
       <section className="py-16 bg-[#F6F8F7] border-y border-[#E2E8E5]">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
@@ -203,8 +181,6 @@ export const AboutPage: React.FC = () => {
         </div>
       </section>
 
-=======
->>>>>>> a2d207fa5434b6149f1cff2969020f0177f6de72
       {/* CTA Strip */}
       <section className="bg-[#EAF4EF] py-14 border-t border-[#176B52]/15">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6">
