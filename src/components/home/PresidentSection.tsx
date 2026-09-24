@@ -14,12 +14,12 @@ export function PresidentSection() {
               <div className="space-y-8 max-w-2xl">
                 <div>
                   <h3 className="text-xl font-bold text-[#17251F]">About the President</h3>
-                  <p className="mt-3 text-base leading-relaxed text-[#57655E]">Vezokho Chotso is the President of Uzho Cultural Society and a public figure, social worker, and sports administrator from Nagaland.</p>
-                  <p className="mt-2 text-base leading-relaxed text-[#57655E]">His public profile includes community welfare and leadership work, political and social service, and sports administration through the Nagaland Cricket Association and district cricket associations.</p>
+                  <p className="mt-3 text-base leading-relaxed text-[#57655E]">Vezokho Chotso is the President of Uzho Cultural Society.</p>
+                  <p className="mt-2 text-base leading-relaxed text-[#57655E]">His biography will be shared here once confirmed.</p>
                 </div>
                 <div className="border-t border-[#E2E8E5] pt-6">
                   <h3 className="text-xl font-bold text-[#17251F]">Message from the President</h3>
-                  <p className="mt-3 text-base leading-relaxed text-[#57655E]">“Uzho Cultural Society is committed to preserving our cultural heritage while creating practical opportunities for education, creativity, entrepreneurship, and community development.”</p>
+                  <p className="mt-3 text-base leading-relaxed text-[#57655E]">A personal message from Vezokho Chotso will be published here soon.</p>
                 </div>
               </div>
             </div>
