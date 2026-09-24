@@ -81,13 +81,13 @@ export const Logo: React.FC<LogoProps> = ({
           className="text-base sm:text-lg font-bold tracking-tight leading-tight uppercase font-['DM_Sans',sans-serif]"
           style={{ color: textColor }}
         >
-          Uzho Cultural Society
+          Uzho
         </span>
         <span
           className="text-[10px] sm:text-xs font-medium tracking-wide uppercase font-['Inter',sans-serif]"
           style={{ color: subtextColor }}
         >
-          Pfutsero · Nagaland
+          Cultural Society
         </span>
       </div>
     </div>
