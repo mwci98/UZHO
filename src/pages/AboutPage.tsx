@@ -65,6 +65,12 @@ export const AboutPage: React.FC = () => {
                 Kohima - 797001, Nagaland, with its community work and local activities rooted in
                 Pfutsero, Phek district.
               </p>
+              <p>
+                Registered under H/RS-1990, dated 06-12-2001, the society is charitable and non-profit.
+                Its activities include cultural heritage preservation, traditional dress and
+                handicraft development, educational initiatives, science and technology, tourism,
+                health, and sustainable community enterprise.
+              </p>
 
               <div className="pt-4 grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="p-6 rounded-2xl bg-[#F6F8F7] border border-[#E2E8E5]">
