@@ -1,0 +1,6 @@
+{
+  "name": "Uzho Cultural Society",
+  "description": "Official website of Uzho Cultural Society, Rüziku, Pfutsero, Phek District, Nagaland. Preserving cultural heritage, community development, and youth engagement.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
