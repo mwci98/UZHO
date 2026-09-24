@@ -157,15 +157,25 @@ export const Footer: React.FC = () => {
 
               <div className="flex items-center gap-2 pt-1">
                 <Phone className="w-3.5 h-3.5 text-[#176B52] shrink-0" />
+<<<<<<< HEAD
                 <a href="tel:+919436077084" className="hover:text-[#A2B8AF]">
                   +91 94360 77084
+=======
+                <a href="tel:+919436000000" className="hover:text-[#A2B8AF]">
+                  +91 94360 00000
+>>>>>>> a2d207fa5434b6149f1cff2969020f0177f6de72
                 </a>
               </div>
 
               <div className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 text-[#176B52] shrink-0" />
+<<<<<<< HEAD
                 <a href="mailto:uzhoculturalsociety@gmail.com" className="hover:text-[#A2B8AF]">
                   uzhoculturalsociety@gmail.com
+=======
+                <a href="mailto:contact@uzhocultural.org" className="hover:text-[#A2B8AF]">
+                  contact@uzhocultural.org
+>>>>>>> a2d207fa5434b6149f1cff2969020f0177f6de72
                 </a>
               </div>
 
